@@ -1,0 +1,34 @@
+<!DOCTYPE HTML5>
+<html lang="es">
+    <head><link rel="stylesheet" href="estilo.css" type="text/css"><title>Mi formulario ruleta</title><meta charset="utf-8">
+    <link rel="shortcut icon" type="image/x-icon" href="imgs/favicon.ico" />
+    </head>
+    <body align="center">
+        <script type="text/javascript" src="script.js"></script>
+        <h1 align="center">T20 Ruleta Programadores Pbc Sm11</h1>
+        <h2 align="center">Ruleta de Mascotas</h2>
+        <form name="formulario">
+            <table align="center">
+                <tr>
+                <td>
+                <div name="box1" id="box1" align="center"> <img src="imgs/casilla.png"> </div>
+                </td>
+                <td>
+                <div name="box2" id="box2" align="center"> <img src="imgs/casilla.png"> </div>
+                </td>
+                <td>
+                <div name="box3" id="box3" align="center"> <img src="imgs/casilla.png"> </div>
+                </td>
+                </tr>
+            </table>
+            <p><label for="nomb">Hola, ¿Comó te llamas?</label>
+            <input type="text" name="nomb" id="nomb" required/>
+            </p>
+            <input type="button" value="¡Girar ruleta!" onclick="ruleta();" id="boton" onmouseover="mouseOver()" onmouseout="mouseOut()"/>
+        <p><label name="salida" id="salida"> Tu resultado es: </label>
+            <label name="resultado" id="resultado"></label></p>
+            
+        </form><br>
+        <img src="imgs/foto.jpg" width="150px" height="200px"><img src="imgs/cetis.jfif" width="150px" height="200px"><img src="imgs/desapejes.png" width="400px" height="200px">
+    </body>
+</html>
