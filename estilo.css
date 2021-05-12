@@ -1,0 +1,59 @@
+/* COLORES DE LA PAGINA
+
+h1=    #1ABC9C
+body=  #A3E4D7
+div=   #D1F2EB
+boton= #138D75
+*/
+
+div{
+    height: 170px;
+    width: 170px;
+    margin: 10px;
+    border-style:solid;
+    background-color: #D1F2EB;
+}
+div img{
+    height: 170px;
+    width: 100%;
+}
+h1{
+    background-color: #1ABC9C;
+    font-size: 50px;
+    padding: 10px;
+}
+h2{
+    background-color: #17A589;
+    padding: 2px;
+}
+*{
+    margin: 0;
+    font-family:sans-serif;
+}
+table{
+    margin-left:auto; 
+    margin-right:auto;
+    margin-top: 20px;
+    align-items: center;
+}
+body{
+    background-color: #A3E4D7;
+}
+p{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+input{
+    font-size: 20px;
+}
+#boton{
+    margin-top: 25px;
+    font-size: 40px;
+    background-color: #138D75;
+}
+img{
+    margin-bottom: 10px;
+}
+
